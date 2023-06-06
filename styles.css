@@ -1,11 +1,27 @@
 * {
-    background-color: rgb(140,217,255);
-    color: rgb(47,76,77);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    background-color: rgb(247,241,195);
+    color: rgb(38,46,31);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
+
 
 img {
     height: auto;
     width: 250px;
 }
+
+.title,
+.intro {
+    text-align: center;
+}
+
+.image {
+    display: grid;
+    place-items: center;
+}
+.links {
+    text-align: center;
+}
+
 
